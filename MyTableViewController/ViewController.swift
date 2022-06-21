@@ -14,6 +14,14 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view.
   }
 
-
+//  @IBAction func didTapButtonOne() {
+//    let vc = MyTableViewController()
+//    navigationController?.pushViewController(vc, animated: true)
+//  }
+//  
+//  @IBAction func didTapButtonTwo() {
+//    let vc = MyTableViewController()
+//    navigationController?.pushViewController(vc, animated: true)
+//  }
 }
 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="AwP-pd-FC9" customClass="EntryTableViewCell" customModule="MyTableViewController" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AwP-pd-FC9" id="FKg-Pp-qi4">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qL4-To-Bbw">
+                        <rect key="frame" x="39" y="21" width="338" height="27"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <color key="textColor" name="TitleColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="CardBackground"/>
+            </tableViewCellContentView>
+            <accessibility key="accessibilityConfiguration" identifier="EntryTableViewCell"/>
+            <constraints>
+                <constraint firstItem="qL4-To-Bbw" firstAttribute="top" secondItem="AwP-pd-FC9" secondAttribute="top" constant="21" id="2sh-9I-eL0"/>
+                <constraint firstAttribute="trailing" secondItem="qL4-To-Bbw" secondAttribute="trailing" constant="39" id="3FN-hT-7ag"/>
+                <constraint firstItem="qL4-To-Bbw" firstAttribute="height" secondItem="AwP-pd-FC9" secondAttribute="height" multiplier="0.45" id="sK3-rE-Z5H"/>
+                <constraint firstItem="qL4-To-Bbw" firstAttribute="leading" secondItem="AwP-pd-FC9" secondAttribute="leading" constant="39" id="tFR-vu-wHs"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="qL4-To-Bbw" id="uec-xt-PLJ"/>
+            </connections>
+            <point key="canvasLocation" x="57.971014492753625" y="-255.13392857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="CardBackground">
+            <color red="0.0" green="0.24699999392032623" blue="0.53299999237060547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TitleColor">
+            <color red="0.85500001907348633" green="0.85500001907348633" blue="0.85500001907348633" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
